@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {FormsModule} from '@angular/forms';
+import { FormsModule} from '@angular/forms';
 
 // Route module
 import { RoutingModule } from './app.router';
@@ -12,7 +12,7 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
 
 // Services
 import { BlogService } from './providers/blog.service';
-import { RoutingModule } from './app.router';
+
 
 @NgModule({
   declarations: [
